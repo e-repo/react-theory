@@ -1,7 +1,8 @@
 import React from 'react';
+import Radium from 'radium';
 import './Car.css';
 
-export default (props) => {
+const Car = (props) => {
 	const inputClass = ['input'];
 	if (props.name !== '') {
 		inputClass.push('green');
@@ -9,8 +10,16 @@ export default (props) => {
 		inputClass.push('red');
 	}
 
+	const style = {
+        border: '2px solid #ddd',
+        ':hover': {
+            border: '2px solid #ccc',
+            boxShadow: '0 0 16px rgba(0,0,0, .3)'
+        }
+    };
+
 	return (
-		<div className='car-card'>
+		<div className='car-card' style={style}>
 			<div>
 				<button onClick={props.changeTitle}>Change title car</button>
 			</div>
@@ -27,3 +36,5 @@ export default (props) => {
 		</div>
 	)
 };
+
+export default Radium(Car);
