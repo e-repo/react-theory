@@ -9,8 +9,12 @@ export default (props) => {
 		inputClass.push('red');
 	}
 
+	const style = {
+		border: '2px solid #ccc',
+	};
+
 	return (
-		<div className='car-card'>
+		<div className='car-card' style={style}>
 			<div>
 				<button onClick={props.changeTitle}>Change title car</button>
 			</div>
