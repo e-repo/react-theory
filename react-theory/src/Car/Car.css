@@ -1,8 +1,9 @@
-.car-card {
+.card {
     display: inline-block;
     padding: 10px;
     margin: 5px;
     transition: all .3s;
+    border: 2px solid #ddd;
 }
 .input {}
 input:active, input:focus {
