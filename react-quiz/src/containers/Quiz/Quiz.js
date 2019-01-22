@@ -35,6 +35,15 @@ class Quiz extends Component {
     ]
   }
 
+	retryHandler = () => {
+    this.setState({
+      activeQuestion: 0,
+      answerState: null,
+      isFinished: false,
+      results: {},
+    })
+  }
+
   onAnswerClickHandler = (answerID) => {
     if (this.state.answerState) {
       const key = Object.keys(this.state.answerState)[0]
@@ -47,8 +56,8 @@ class Quiz extends Component {
     const results = this.state.results
 
     if (question.rightAnswerID === answerID) {
-      if (!results[answerID]) {
-        results[answerID] = 'success'
+      if (!results[question.id]) {
+        results[question.id] = 'success'
       }
 
       this.setState({
@@ -71,7 +80,7 @@ class Quiz extends Component {
         window.clearTimeout(timeout);
       }, 1000)
     } else {
-      results[answerID] = 'error'
+      results[question.id] = 'error'
       this.setState({
         answerState: {[answerID]: 'error'},
         results,
@@ -89,10 +98,14 @@ class Quiz extends Component {
         <div className={classes.QuizWrapper}>
           <h1>Ответьте на все вопросы</h1>
           {
+
+          }
+          {
             this.state.isFinished
               ? <FinishedQuize
                   results = {this.state.results}
                   quiz = {this.state.quiz}
+                  onRetry = {this.retryHandler}
                 />
               : <ActiveQuiz
                     answers={this.state.quiz[this.state.activeQuestion].answers}

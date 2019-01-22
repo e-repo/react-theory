@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48133f87-662c-4069-bc4f-93e419038092" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-quiz/src/components/FinishedQuiz/FinishedQuiz.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-quiz/src/components/FinishedQuiz/FinishedQuiz.module.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-quiz/public/index.html" afterPath="$PROJECT_DIR$/react-quiz/public/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-quiz/src/components/FinishedQuiz/FinishedQuiz.js" afterPath="$PROJECT_DIR$/react-quiz/src/components/FinishedQuiz/FinishedQuiz.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-quiz/src/containers/Quiz/Quiz.js" afterPath="$PROJECT_DIR$/react-quiz/src/containers/Quiz/Quiz.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -23,8 +21,8 @@
       <file leaf-file-name="Quiz.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/react-quiz/src/containers/Quiz/Quiz.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="94" column="21" lean-forward="false" selection-start-line="94" selection-start-column="21" selection-end-line="94" selection-end-column="21" />
+            <state relative-caret-position="897">
+              <caret line="42" column="18" lean-forward="false" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -33,8 +31,8 @@
       <file leaf-file-name="FinishedQuiz.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/react-quiz/src/components/FinishedQuiz/FinishedQuiz.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="25" column="9" lean-forward="false" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+            <state relative-caret-position="540">
+              <caret line="39" column="38" lean-forward="false" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -139,8 +137,8 @@
         <option value="$PROJECT_DIR$/react-quiz/src/components/ActiveQuiz/AnswersList/AnswersList.js" />
         <option value="$PROJECT_DIR$/react-quiz/public/index.html" />
         <option value="$PROJECT_DIR$/react-quiz/src/components/FinishedQuiz/FinishedQuiz.module.css" />
-        <option value="$PROJECT_DIR$/react-quiz/src/containers/Quiz/Quiz.js" />
         <option value="$PROJECT_DIR$/react-quiz/src/components/FinishedQuiz/FinishedQuiz.js" />
+        <option value="$PROJECT_DIR$/react-quiz/src/containers/Quiz/Quiz.js" />
       </list>
     </option>
   </component>
@@ -325,16 +323,15 @@
       <workItem from="1547523421538" duration="4927000" />
       <workItem from="1547707355572" duration="4646000" />
       <workItem from="1547800440611" duration="3310000" />
-      <workItem from="1548140585156" duration="98000" />
+      <workItem from="1548140585156" duration="4540000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138931000" />
+    <option name="totallyTimeSpent" value="143373000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973656" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -678,8 +675,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/react-quiz/src/components/FinishedQuiz/FinishedQuiz.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="25" column="9" lean-forward="false" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        <state relative-caret-position="540">
+          <caret line="39" column="38" lean-forward="false" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
@@ -688,8 +685,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/react-quiz/src/containers/Quiz/Quiz.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="94" column="21" lean-forward="false" selection-start-line="94" selection-start-column="21" selection-end-line="94" selection-end-column="21" />
+        <state relative-caret-position="897">
+          <caret line="42" column="18" lean-forward="false" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
           <folding />
         </state>
       </provider>
