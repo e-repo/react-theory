@@ -6,6 +6,10 @@ import Cars from './Cars/Cars'
 import CarDetail from './CarDetail/CarDetail'
 
 class App extends Component {
+    state = {
+        isLoggedIn: false,
+    }
+
     render() {
 
         return (
@@ -26,11 +30,19 @@ class App extends Component {
 
                 <hr/>
 
+                <div style={{textAlign: 'center'}}>
+                    <h2>Param isLoggedIn {(this.state.isLoggedIn) ? 'TRUE' : 'FALSE'}</h2>
+                    <button type={'button'} onClick={() => this.setState({isLoggedIn: true})}>Login</button>
+                </div>
+
+                <hr/>
+
                 <Switch>
                     <Route path="/" exact render={() => <h1 style={{textAlign: 'center'}}>Home page</h1>} />
-                    <Route path="/about" component={About} />
+                    {(this.state.isLoggedIn) ? <Route path="/about" component={About} /> : null}
                     <Route path="/cars/:name" component={CarDetail}/>
                     <Route path="/cars" component={Cars} />
+                    <Route render={() => <h2 style={{textAlign: 'center', color: 'red'}}>404 Not found</h2>}/>
                 </Switch>
 
             </div>
