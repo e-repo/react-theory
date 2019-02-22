@@ -51,7 +51,7 @@ class QuizCreator extends Component {
     const questionItem = {
       question: question.value,
       id: index,
-      rightAnswer: this.state.rightAnswerID,
+      rightAnswerID: this.state.rightAnswerID,
       answers: [
 	      {text: option1.value, id: option1.id},
 	      {text: option2.value, id: option2.id},
@@ -76,8 +76,13 @@ class QuizCreator extends Component {
     event.preventDefault()
 
     try {
-      const response = await axios.post('https://react-quiz-a04a4.firebaseio.com/quizes.json', this.state.quiz)
-      console.log(response)
+      await axios.post('https://react-quiz-a04a4.firebaseio.com/quizes.json', this.state.quiz)
+	    this.setState({
+		    quiz: [],
+		    isFormValid: false,
+		    rightAnswerID: 1,
+		    formControls: createFormControls()
+	    })
     } catch (e) {
       console.log(e)
     }
