@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48133f87-662c-4069-bc4f-93e419038092" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/react-redux/src/Counter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-redux/src/redux/actions/actionTypes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-redux/src/redux/actions/actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-redux/src/redux/reducers/counter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-redux/src/redux/reducers/counter2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-redux/src/redux/rootReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-quiz/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/react-quiz/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-redux/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-redux/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-redux/redux.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-redux/redux.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-redux/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-redux/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-redux/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-redux/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-redux/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/react-redux/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-theory/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/react-theory/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,29 +20,31 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="4" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="1" />
           <entry key="JavaScript" value="14" />
+          <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JavaScript" value="2809" />
+          <entry key="PLAIN_TEXT" value="6" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/react-redux/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="286">
@@ -60,6 +52,15 @@
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="52">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -185,7 +186,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/react-theory/src/Car/Car.css" />
         <option value="$PROJECT_DIR$/react-theory/src/hoc/withClass.js" />
         <option value="$PROJECT_DIR$/react-theory/src/Car/Car.js" />
         <option value="$PROJECT_DIR$/react-theory/src/Counter/Counter.js" />
@@ -236,6 +236,7 @@
         <option value="$PROJECT_DIR$/react-redux/src/redux/actions/actions.js" />
         <option value="$PROJECT_DIR$/react-redux/src/App.js" />
         <option value="$PROJECT_DIR$/react-redux/src/index.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -253,8 +254,6 @@
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
-    <handled-path value="$PROJECT_DIR$/react-quiz/node_modules" />
-    <handled-path value="$PROJECT_DIR$/react-redux/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
@@ -278,6 +277,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -285,52 +285,17 @@
               <item name="react-theory" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-theory" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="react-theory" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-theory" type="462c0819:PsiDirectoryNode" />
-              <item name="react-redux" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-theory" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-theory" type="462c0819:PsiDirectoryNode" />
-              <item name="react-redux" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-theory" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-theory" type="462c0819:PsiDirectoryNode" />
-              <item name="react-redux" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="redux" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-theory" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-theory" type="462c0819:PsiDirectoryNode" />
-              <item name="react-redux" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="redux" type="462c0819:PsiDirectoryNode" />
-              <item name="actions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-theory" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-theory" type="462c0819:PsiDirectoryNode" />
-              <item name="react-redux" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="redux" type="462c0819:PsiDirectoryNode" />
-              <item name="reducers" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/react-quiz" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -397,16 +362,18 @@
       <workItem from="1550902569103" duration="13073000" />
       <workItem from="1550982633595" duration="8804000" />
       <workItem from="1551200731474" duration="33000" />
+      <workItem from="1555967854775" duration="153000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="209830000" />
+    <option name="totallyTimeSpent" value="209983000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2496474" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2496474" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -417,7 +384,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.2815934" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.2815934" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -432,13 +399,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/react-theory/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="49" column="9" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/react-theory/src/Counter/Counter.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="572">
@@ -795,6 +755,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
